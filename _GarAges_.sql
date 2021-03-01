@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Feb 07, 2021 at 06:00 PM
+-- Generation Time: Mar 01, 2021 at 01:05 PM
 -- Server version: 5.7.26
 -- PHP Version: 7.4.2
 
@@ -440,6 +440,13 @@ CREATE TABLE `GARE` (
   `VILLE` char(6) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Dumping data for table `GARE`
+--
+
+INSERT INTO `GARE` (`UIC`, `NOM_GARE`, `VILLE`) VALUES
+('111849', 'Marne la vallée Chessy', '0');
+
 -- --------------------------------------------------------
 
 --
@@ -490,6 +497,13 @@ CREATE TABLE `VILLE` (
   `POPULATION` int(11) DEFAULT NULL,
   `TAUX_CHOMAGE` float DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `VILLE`
+--
+
+INSERT INTO `VILLE` (`ID_V`, `NOM_VILLE`, `DEPARTEMENT`, `POPULATION`, `TAUX_CHOMAGE`) VALUES
+('0', 'Marne la Vallée', 77, 0, 11);
 
 --
 -- Indexes for dumped tables
