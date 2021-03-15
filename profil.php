@@ -24,6 +24,6 @@
 
 		
 		
-		<br> <p><a href="site.php">Accéder au site </a></p> </br>
+		<br> <p><a href="page_ville.php">Accéder au site </a></p> </br>
 	</body>
 </html>
