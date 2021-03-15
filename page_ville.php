@@ -6,6 +6,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </HEAD>
 
+<body>
+<br> Des informations impossibles a regrouper pour préparer votre prochain voyage ? Gar'ages ! </br>
+
 ville
 <SELECT name="ville">
 <OPTION
@@ -115,5 +118,14 @@ VALUE=""> </OPTION><OPTION
 VALUE=""> </OPTION><OPTION
 VALUE=""> </OPTION>
 </SELECT>
+
+
+<br> <p><a href="profil.php">Mon profil </a></p> </br>
+
+<br> <INPUT type="submit" value="Continuer"></br>
+
+
+
+</body>
 
 </HTML>
