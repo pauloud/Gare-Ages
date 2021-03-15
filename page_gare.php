@@ -4,6 +4,10 @@
 <TITLE> gare </TITLE>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet" href="page_ville" type="text/css" media="screen" />
+
+
 </HEAD>
 
 gare
@@ -145,5 +149,13 @@ VALUE=""> </OPTION>
 
 
 </SELECT>
+
+<br> <p><a href="profil.php">Mon profil </a></p> </br>
+
+<br> <INPUT type="submit" value="Resultat"></br>
+
+
+
+</body>
 
 </HTML>
