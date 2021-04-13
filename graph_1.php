@@ -5,7 +5,7 @@ require_once("jpgraph/src/jpgraph.php");
 #Le fichier jpgraph_bar.php est dédié au tracé d'histogramme.
 require_once("jpgraph/src/jpgraph_pie.php");
 
-$donnees = array(12,23,9,58,23,26,57,48,12);
+
 $bdd= new PDO('mysql:host=localhost;dbname=projetgares;charset=utf8', 'root', 'root');
 
 $rep = $bdd->query('select POURCENTAGE from FREQUENTATION where NOM_GARE="Marne la Vallée Chessy" and ANNEE=2013') ;
