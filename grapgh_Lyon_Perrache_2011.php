@@ -1,4 +1,3 @@
-
 <?php
 
 #Le fichier jpgraph.php doit être inclus quelque soit le type de graphique voulu
